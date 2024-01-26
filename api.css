@@ -1,0 +1,38 @@
+.card-body {
+  position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    
+}
+.card-img-top{
+    height: 350px;
+}
+.card
+.card{overflow: auto;}
+
+.card-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+     /* Set a maximum height for the description */
+}
+.modal-title button{
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+#closeHover{
+    transition: all .5S;
+}
+.card-body button{
+    
+  
+position: absolute;
+bottom: 10px;
+left: 50%;
+transform: translate(-50%);
+}
+.card-body button:hover{
+    color: #fff;
+}

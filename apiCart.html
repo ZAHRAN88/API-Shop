@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/bootstrap.min.css" />
+    <link rel="stylesheet" href="api.css">
+    <title>Products</title>
+  </head>
+  <body>
+    <section class="py-5">
+        <input type="text" id="searchInput" class="form-control mt-3 mx-auto w-50" placeholder="Search for products">
+        <div class="container">
+            <div class="row" id="products">
+                
+            </div>
+        </div>
+       
+    </section>
+<!-- Button trigger modal -->
+
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalProductTitle">Product Title</h5>
+          
+            <i id="closeHover" class="  fa-regular  fa-circle " style="color: #e10e39;" data-bs-dismiss="modal" aria-label="Close"></i>
+          
+        </div>
+        <div class="modal-body">
+          <img class="card-img" id="modalProductImage" src="" alt="Product Image">
+          <p id="modalProductDescription"></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.5.2/dist/js/bootstrap.min.js"></script>
+  
+  <script src="assets/bootstrap.bundle.min.js"></script>
+    <script src="api.js"></script>
+ 
+
+  </body>
+</html>
